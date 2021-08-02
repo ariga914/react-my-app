@@ -1,12 +1,11 @@
-import React, { Fragment } from "react";
 import Navigation from "./Navigation";
 
 const Mainheader = () => {
     return (
-        <Fragment>
+        <header>
             <h1>Manage Allowance</h1>
             <Navigation />
-        </Fragment>
+        </header>
     );
 };
 
