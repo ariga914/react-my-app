@@ -1,12 +1,11 @@
 import React, { Fragment } from "react";
 import RegisterForm from "../components/Main/RegisterForm";
-import ManagementCards from "../components/Main/ManagementCards";
-
+import DealList from "../components/Main/DealList";
 const MainPage = () => {
     return (
         <Fragment>
             <RegisterForm />
-            <ManagementCards />
+            <DealList />
         </Fragment>
     );
 };
